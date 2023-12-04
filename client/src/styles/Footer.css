@@ -1,0 +1,47 @@
+.Footer{
+
+    background: rgb(85,191,255);
+    background: linear-gradient(70deg, rgb(78, 175, 235) 0%, rgb(46, 166, 174) 56%, rgb(143, 214, 156) 100%);
+    color: aliceblue;
+    padding: 3vh 3vw;
+    margin-top: 3vh;
+
+}
+.Footer h4{
+
+    margin-left: 2vw;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-body ul{
+
+    
+}
+
+.footer-body ul li{
+    list-style: none;
+    color: rgb(199, 200, 202); 
+    cursor: pointer;
+}
+
+.footer-body ul li:hover{
+    list-style: none;
+    color: aliceblue; 
+}
+.footer-bottom{
+
+
+}
+
+.footer-bottom p{
+    text-align: center;
+    color: rgb(193, 196, 198);
+    margin: 0;
+}

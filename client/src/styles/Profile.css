@@ -1,0 +1,242 @@
+.profilePage{
+
+    width: 100%;
+    padding-top: 15vh;
+}
+
+
+.profileBox{
+
+    width: 90%;
+    background-color: #F4F6FB;
+    margin-left: 5%;
+    padding: 3vh 3vw;
+    border-radius: 0.5rem;
+}
+
+.profileBox-head{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.profileBox-head span{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.profileBox-head b{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 500;
+    color: #3a8766;
+}
+.profileBox-head p{
+    font-size: 1.1rem;
+    margin: 0;
+    color: #4781bc;
+}
+
+.profileBox-body{
+
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2vh 1vw;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+}
+
+.profileBox-body span{
+
+    margin: 0;
+    text-align: center;
+}
+.profileBox-body span p{
+
+    margin: 0;
+    font-size: 0.8rem;
+    color: #1c1c1dad;
+}
+
+.profileBox-body span h6{
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 400;
+}
+.profileBox-body .cash-actions{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.profileBox-body .cash-actions .cash-actions-active{
+
+    background-color: #3F5BD9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border: 1px solid #3F5BD9;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions .cash-actions-inactive{
+
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #3F5BD9;
+    border: 1px solid #3F5BD9;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions button .cash-action-icons{
+    font-size: 1rem;
+}
+
+
+.ProfileFunds{
+    margin-left: 10%;
+    margin-top: 3vh;
+}
+
+.ProfileFunds h3{
+
+    font-size: 1.5rem;
+    color: #2f3c76;
+
+}
+
+.ProfileFunds form{
+    width: 30%;
+}
+
+
+.ProfileFunds input, .ProfileFunds select{
+    margin-left: 1.3rem;
+}
+
+.ProfileFunds button{
+    margin-left: 1.3rem;
+
+}
+
+.profileTransactions{
+    width: 60%;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.profileTransactions::-webkit-scrollbar {
+    display: none;
+  }
+
+.profileTransaction{
+    display: flex;
+    background-color: #f4f6fbc1;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px solid #2f3c762e;
+}
+
+.profileTransaction span{
+    text-align: center;
+    
+}
+
+.profileTransaction span h6{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #394b9d8c;
+}
+
+.profileTransaction span p{
+    margin: 0;
+    font-size: 1.1rem;
+    color: #394b9d;
+}
+
+
+.user-profile-biddings-container{
+
+    margin: 5vh 0 5vh 5vw;
+    border: 1px solid rgba(21, 77, 123, 0.29);
+    border-radius: 0.6rem;
+    padding: 3vh 2vw;
+    width: 80%;
+}
+
+.user-profile-biddings-container h3{
+
+
+}
+
+.user-profile-biddings{
+
+    width: 100%;
+    margin-top: 3vh;
+    overflow-y: scroll;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.user-profile-bidding{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid rgba(140, 194, 241, 0.537);
+    background-color: #e8f3f840;
+    padding: 10px 15px;
+    border-radius: 1rem;
+}
+
+.user-profile-bidding:hover{
+
+    
+}
+
+.user-profile-bidding span{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.user-profile-bidding span b{
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    color: #092c57;
+}
+
+.user-profile-bidding span p{
+
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.top-bid{
+    background: rgb(85,191,255);
+    background: linear-gradient(317deg, rgba(85, 190, 255, 0.587) 0%, rgba(52, 186, 196, 0.495) 56%, rgba(165, 236, 178, 0.409) 100%);
+}
+.top-bid span p{
+
+    color: rgb(63, 63, 64) !important;
+}

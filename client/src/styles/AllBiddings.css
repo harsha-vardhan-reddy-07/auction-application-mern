@@ -1,0 +1,70 @@
+.all-biddings-page{
+
+    background-color: #262c33;
+    height: 100vh;
+    width: 100%;
+    padding-top: 15vh;
+}
+
+
+.all-biddings-container{
+
+    margin: 0vh 3vw 5vh 3vw;
+    border: 1px solid rgba(181, 199, 214, 0.29);
+    border-radius: 0.6rem;
+    padding: 3vh 2vw;
+}
+
+.all-biddings-container h3{
+    color: aliceblue;
+
+}
+
+.all-biddings{
+
+    width: 100%;
+    margin-top: 3vh;
+    overflow-y: scroll;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.all-bidding{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: 1px solid rgba(140, 194, 241, 0.537);
+    background-color: #e8f3f840;
+    padding: 10px 15px;
+    border-radius: 1rem;
+}
+
+.all-bidding:hover{
+
+    
+}
+
+.all-bidding span{
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.all-bidding span b{
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    color: #6ea7ed;
+}
+
+.all-bidding span p{
+
+    font-size: 0.9rem;
+    margin: 0;
+    color: #b1c2d7;
+}
